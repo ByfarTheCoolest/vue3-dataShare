@@ -52,6 +52,7 @@ export default {
           this.$axios.post("/nodes/login", this.ruleForm).then(res => {
             // console.log(res);
             if (res.data == "ookk") {
+              window.localStorage.setItem('ms_username',this.ruleForm.username);
               this.$router.push("/dashboard");
             } else {
               this.$message({
