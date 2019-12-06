@@ -9,7 +9,7 @@
   },
   "dependencies": {
     "@huoyu/vue-digitroll": "^1.0.4",
-    "axios": "^0.18.0",
+    "axios": "^0.18.1",
     "babel-polyfill": "^6.26.0",
     "element-ui": "^2.4.11",
     "esri-loader": "^2.12.0",
